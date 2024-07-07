@@ -123,6 +123,7 @@ body {
 .navigation-links li {
     margin-left: 40px;
     font-family: 'Inter';
+    cursor: pointer;
 }
 
 .news-section {
@@ -185,6 +186,7 @@ body {
 }
 
 .read-more-btn {
+    cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-left: 45px;
@@ -194,6 +196,11 @@ body {
     font-family: 'Inter ExtraBold';
     padding: 10px 37px;
     border: none;
+    transition: all .4s linear;
+}
+
+.read-more-btn:hover{
+    background-color: hsl(35, 77%, 62%);
 }
 
 .side-bar {
